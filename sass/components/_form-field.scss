@@ -1,0 +1,37 @@
+.form-field {
+    position: relative;
+    /*margin-bottom: 10px;*/
+    padding: 0;
+
+    &__input-focus {
+        width: 448px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+        padding-left: 42px;
+        border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+        outline: none;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__input-focus:focus {
+        border: 1px solid var(--accent-color);
+    }
+
+    &__input-focus:focus+&__icon-person {
+        fill: var(--accent-color);
+    }
+
+    &__icon-person {
+        position: absolute;
+        margin-top: 11px;
+        margin-bottom: 11px;
+        margin-left: 12px;
+        left: 0;
+        width: 18px;
+        height: 18px;
+        fill: var(--primary-text-color);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+   }

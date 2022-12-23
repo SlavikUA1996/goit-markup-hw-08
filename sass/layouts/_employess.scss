@@ -1,0 +1,46 @@
+.section-worker{
+    display: inline-flex;
+}
+
+.employees{
+    display: block;
+    padding: 0;
+    list-style: none;
+
+    margin-right: 30px;
+    background: var(--title-text-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+
+ &__personnel{
+    padding-top: 30px;
+
+   }   
+
+&__worker {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    list-style: none;
+    letter-spacing: 0.03em;
+    text-align: center;
+   }
+
+&__workplace{
+    margin-top: 0;
+    /* margin-bottom: 30px;*/
+    
+    color: var(--info-text);
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+   }
+}
+
+.employees:last-child{
+    margin-right: 0;
+}

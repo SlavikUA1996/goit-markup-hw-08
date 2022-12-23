@@ -1,0 +1,29 @@
+.field-agreement{
+
+&__text{position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--info-text);}   
+
+&__post-text {
+    position: relative;
+            
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--info-text);
+ }
+
+&__link{ 
+    font-size: 14px;
+    line-height: 1.7;
+
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: var(--accent-color);
+    }
+}

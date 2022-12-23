@@ -1,0 +1,49 @@
+.checkbox-custom {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+&__icon-span {
+        display: inline-flex;
+        margin-right: 7px;
+        margin-left: 13px;
+        width: 16px;
+        height: 15px;
+        border: 2px solid var(--primary-text-color);
+        border-radius: 2px;
+    }
+    
+&:checked+&__icon-span {
+    border-color:var(--accent-color);
+    background-image: url(../images/icon\ check.svg);
+    background-color: var(--accent-color);
+    background-size: cover;
+    background-origin: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.svg-checkbox {
+    width: 16px;
+    height: 15px;
+}
+
+
+

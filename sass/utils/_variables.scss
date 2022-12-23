@@ -1,0 +1,27 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #ffffff;
+    --accent-color: #2196f3;
+    --info-text: #757575;
+    --bgc-color: #2f303a;
+    --logo-color: #000000;
+    --icon-background: #f5f4fa;
+    --icon-social: #afb1b8;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.checkbox-custom {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

@@ -1,0 +1,7 @@
+.header{
+    @extend %flex-align;
+        border-bottom: 1px solid #ececec;
+    &__logo {
+        margin-right: 93px;
+        }
+}

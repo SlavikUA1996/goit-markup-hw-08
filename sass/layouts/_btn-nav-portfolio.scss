@@ -1,0 +1,16 @@
+.menu-nav {
+    text-align: center;
+}
+
+.nav-portfolio {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    list-style: none;
+    display: inline-flex;
+
+&__item{margin-right: 8px;}
+
+&__item:last-child{margin-right: 0;}
+}
