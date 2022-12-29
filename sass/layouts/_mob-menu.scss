@@ -1,0 +1,65 @@
+
+.mob-menu {position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+top: 0;
+left: 0;
+right: 0;
+}
+
+.btn-menu-mob-close {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.mob-list {
+&__item{
+    margin-bottom: 32px;
+}
+
+&__link{  
+font-weight: 500;
+ font-size: 40px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-decoration: none;
+color: var(--primary-text-color);
+}
+}
+
+.mob-contacts{
+    font-weight: 500;
+        font-size: 34px;
+        line-height: 1.2;
+           
+     letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+
+&__mail {
+    font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}   
+}
+
+.mob-social-menu{
+    display: flex;
+    color: #2196F3;
+
+    &__text{
+        font-size: 18px;
+            line-height: 1.2;
+           
+        
+            letter-spacing: 0.02em;
+        
+        color: #2196F3;
+        border-left: 1px solid rgba(33, 33, 33, 0.2);;
+    }
+}

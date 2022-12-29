@@ -1,10 +1,9 @@
 .photo-projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    
     padding: 0;
     margin: 0;
     list-style: none;
+   
 
 &:nth-last-child(3n) {
         margin-right: 0;
@@ -19,6 +18,8 @@
     /*border-bottom: 1px solid #eeeeee;*/
     &:hover .position-text {
         transform: translateY(0);
+
+
     }
 
 &:hover {
@@ -57,7 +58,24 @@
     color: var(--title-text-color);
     background-color: rgba(33, 150, 243, 0.9);
 }
+
+ @media screen and (min-width:480px) {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 30px;
+     // width: 100%;
+ }
+
+ @media screen and (min-width:768px) {
+     width: calc((100% - 30px)/4);
+ }
+
+
+ @media screen and (min-width:1200px) {
+     width: 100%;
+ }
 }
+
 
 
 /*Позиціонування спливаючого тексту*/
@@ -82,6 +100,7 @@
         line-height: 1.9;
         letter-spacing: 0.03em;
     }
+    
 }
 
 

@@ -1,13 +1,13 @@
 .customers{
-    display: inline-flex;
-        margin-right: 26px;
+    // display: inline-flex;
+    //     margin-right: 26px;
     
         text-decoration: none;
 
 &__link{
             justify-content: center;
         @extend %flex-align;
-        width: 170px;
+            width: 170px;
         height: 92px;
     
         /*margin: auto;*/
@@ -35,8 +35,31 @@
 &__focus{
     color: var(--accent-color);
 }
+
+
+  @media screen and (min-width:480px),(max-width:479px) {
+     display: inline-flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      width: calc((100% - 30px)/2);
+
+ }
+
+  @media screen and (min-width:768px) {
+     
+      width: calc((100% - 30px)/3);
+
+  }
+
+  @media screen and (min-width:1200px) {
+
+      width: calc((100% - 30px)/6);
+
+  }
 }
 
 .customers:last-child{
     margin-right: 0;
 }
+
+

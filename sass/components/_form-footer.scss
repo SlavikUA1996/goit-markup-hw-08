@@ -16,5 +16,18 @@
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
     }
+
+
+// @media screen and (min-width:768px),(max-width:768px) {
+
+//     width: 100%;
+//     text-align: center;
+// }
+
+@media screen and (min-width:1200px) {
+
+    display: inline-flex;
+   
+}
 }
 

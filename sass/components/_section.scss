@@ -2,6 +2,11 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
+&__no-mob{
+    @media screen and (max-width:1199px) {
+            display: none;
+        }
+}
 }
 .no-section {
     padding-bottom: 0;
@@ -10,3 +15,5 @@
  .section--bcg {
      background-color: #F5F4FA;
  }
+
+

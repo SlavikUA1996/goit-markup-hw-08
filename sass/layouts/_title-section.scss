@@ -8,4 +8,9 @@
     letter-spacing: 0.03em;
     
 &__margin{margin-bottom: 50px}
+ @media screen and (max-width:480px) {
+     display: none;
+ }
+ 
+
 }
