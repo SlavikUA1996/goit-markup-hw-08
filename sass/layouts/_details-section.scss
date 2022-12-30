@@ -77,12 +77,13 @@
 @media screen and (min-width:480px),(max-width:479px) {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
     text-align: center;
     
 }
 @media screen and (min-width:768px) {
     
-    gap: 30px;
+    
     text-align: left;
 
 }

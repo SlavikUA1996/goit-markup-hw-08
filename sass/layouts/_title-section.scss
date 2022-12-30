@@ -7,10 +7,12 @@
     text-align: center;
     letter-spacing: 0.03em;
     
-&__margin{margin-bottom: 50px}
+&__margin{margin-bottom: 30px}
  @media screen and (max-width:480px) {
      display: none;
  }
  
-
+ @media screen and (min-width:1200px) {
+     margin-bottom: 50px;
+ }
 }

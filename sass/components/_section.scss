@@ -1,6 +1,11 @@
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+@media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
 &__no-mob{
     @media screen and (max-width:1199px) {
@@ -14,6 +19,7 @@
 
  .section--bcg {
      background-color: #F5F4FA;
+   
  }
 
 

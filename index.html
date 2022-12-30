@@ -24,7 +24,7 @@
           >
         </div>
         <button type="button" class="btn-menu-mob" data-menu-open>
-          <svg class="mob-icon" width="40" height="40">
+          <svg class="" width="40" height="40">
             <use
               class="icon-menu-open"
               href="./images/icon.svg#iconmenu-open-mob"
@@ -38,12 +38,10 @@
           <nav>
             <ul class="list">
               <li class="list__item">
-                <a href="./index.html" class="list__link">Студія</a>
+                <a href="./index.html" class="list__link list__current list__studio">Студія</a>
               </li>
               <li class="list__item">
-                <a class="list__link list__current list__studio" href="./portfolio.html"
-                  >Портфоліо</a
-                >
+                <a class="list__link" href="./portfolio.html">Портфоліо</a>
               </li>
               <li class="list__item"><a class="list__link" href="">Контакти</a></li>
             </ul>
@@ -65,42 +63,59 @@
         </div>
       </div>
       <div class="container">
-        <div class="mob-menu is-hidden" data-menu>
-          <button type="button" class="btn-menu-mob-close" data-menu-close>
-            <svg class="mob-icon" width="40" height="40">
-              <use
-                class="icon-menu-open"
-                href="./images/icon.svg#iconmenu-open-mob"
-                width="40"
-                height="40"
-              ></use>
-              <use class="icon-menu-close" href="./images/icon.svg#iconmenu-close-mob"></use>
-            </svg>
-          </button>
-          <nav>
-            <ul class="mob-list">
-              <li class="mob-list__item">
-                <a href="./index.html" class="mob-list__link">Студія</a>
-              </li>
-              <li class="mob-list__item">
-                <a class="mob-list__link mob-list__current mob-list__studio" href="./portfolio.html"
-                  >Портфоліо</a
-                >
-              </li>
-              <li class="mob-list__item"><a class="mob-list__link" href="">Контакти</a></li>
-            </ul>
-          </nav>
+        <div class="is-hidden" data-menu>
+          <div class="mob-menu">
+            <button type="button" class="btn-menu-mob-close" data-menu-close>
+              <svg class="mob-icon" width="40" height="40">
+                <use
+                  class="icon-menu-close"
+                  href="./images/icon.svg#iconmenu-close-mob"
+                  width="40"
+                  height="40"
+                ></use>
+              </svg>
+            </button>
+            <div class="mob-position">
+              <nav>
+                <ul class="mob-list">
+                  <li class="mob-list__item">
+                    <a href="./index.html" class="mob-list__link mob-list__current">Студія</a>
+                  </li>
+                  <li class="mob-list__item">
+                    <a class="mob-list__link" href="./portfolio.html">Портфоліо</a>
+                  </li>
+                  <li class="mob-list__item"><a class="mob-list__link" href="">Контакти</a></li>
+                </ul>
+              </nav>
+              <div>
+                <ul class="mob-contacts">
+                  <li class="mob-mail-tel">
+                    <a href="tel:+380961111111" class="mob-contacts__tel"> +38 096 111 11 11 </a>
+                  </li>
+                  <li class="mob-mail-tel">
+                    <a href="mailto:info@devstudio.com" class="mob-contacts mob-contacts__mail">
+                      info@devstudio.com
+                    </a>
+                  </li>
+                </ul>
 
-          <a href="tel:+380961111111" class="mob-contacts mob-contacts__tel"> +38 096 111 11 11 </a>
-          <a href="mailto:info@devstudio.com" class="mob-contacts mob-contacts__mail">
-            info@devstudio.com
-          </a>
-          <ul class="mob-social-menu">
-            <li class="mob-social-menu mob-social-menu__text"><a href="">Instagram</a></li>
-            <li class="mob-social-menu mob-social-menu__text"><a href="">Twitter</a></li>
-            <li class="mob-social-menu mob-social-menu__text"><a href="">Facebook</a></li>
-            <li class="mob-social-menu mob-social-menu__text"><a href="">LinkedIn</a></li>
-          </ul>
+                <ul class="mob-social-menu">
+                  <li class="mob-social-menu">
+                    <a href="" class="mob-social-menu__text">Instagram</a>
+                  </li>
+                  <li class="mob-social-menu">
+                    <a href="" class="mob-social-menu__text">Twitter</a>
+                  </li>
+                  <li class="mob-social-menu">
+                    <a href="" class="mob-social-menu__text">Facebook</a>
+                  </li>
+                  <li class="mob-social-menu">
+                    <a href="" class="mob-social-menu__text">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -288,10 +303,14 @@
                 <source
                   srcset="./images/img1x-igor-tablet.jpg 1x, ./images/img2x-igor-tablet.jpg 2x"
                   media="(min-width:768px)"
+                  width="354"
+                  height="374"
                 />
                 <source
                   srcset="./images/img1x-igor-mob.jpg 1x, ./images/img2x-igor-mob.jpg 2x"
                   media="(min-width:480px)"
+                  width="450"
+                  height="460"
                 />
                 <img
                   srcset="./images/PD.jpg 1x, ./images/img2x-igor-desktop.jpg 2x"
@@ -364,10 +383,14 @@
                 <source
                   srcset="./images/img1x-olga-tablet.jpg 1x, ./images/img2x-olga-tablet.jpg 2x"
                   media="(min-width:768px)"
+                  width="354"
+                  height="374"
                 />
                 <source
                   srcset="./images/img1x-olga-mob.jpg 1x, ./images/img2x-olga-mob.jpg 2x"
                   media="(min-width:480px)"
+                  width="450"
+                  height="460"
                 />
                 <img
                   srcset="./images/FD.jpg 1x, ./images/img2x-olga-desktop.jpg 2x"
@@ -441,10 +464,14 @@
                 <source
                   srcset="./images/img1x-mykola-tablet.jpg 1x, ./images/img2x-mykola-tablet.jpg 2x"
                   media="(min-width:768px)"
+                  width="354"
+                  height="374"
                 />
                 <source
                   srcset="./images/img1x-mykola-mob.jpg 1x, ./images/img2x-mykola-mob.jpg 2x"
                   media="(min-width:480px)"
+                  width="450"
+                  height="460"
                 />
                 <img
                   srcset="./images/Marketing.jpg 1x, ./images/img2x-mykola-desktop.jpg 2x"
@@ -521,10 +548,14 @@
                     ./images/img2x-mykhailo-tablet.jpg 2x
                   "
                   media="(min-width:768px)"
+                  width="354"
+                  height="374"
                 />
                 <source
                   srcset="./images/img1x-mykhailo-mob.jpg 1x, ./images/img2x-mykhailo-mob.jpg 2x"
                   media="(min-width:480px)"
+                  width="450"
+                  height="460"
                 />
                 <img
                   srcset="./images/UI.jpg 1x, ./images/img2x-mykhailo-desktop.jpg 2x"
