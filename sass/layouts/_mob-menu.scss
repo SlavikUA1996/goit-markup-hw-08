@@ -100,9 +100,8 @@ font-weight: 500;
 
 .mob-social-menu{
     display: flex;
-    border-right: 1px solid rgba(33, 33, 33, 0.2);
-    padding-right: 10px;
-        padding-left: 10px;
+    
+   
 
     &__text{
 
@@ -116,10 +115,20 @@ font-weight: 500;
         text-decoration: none;
               
     }
-&:last-child{
+
+&__link{
+padding-right: 10px;
+    padding-left: 10px;
+
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+
+    list-style: none;
+} 
+    
+&__link:last-child{
     border-right: none;
 }
-&:first-child {
+&__link:first-child {
     padding-left: 0;
 }
 }
