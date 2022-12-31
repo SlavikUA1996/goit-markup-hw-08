@@ -6,7 +6,7 @@
     //  height: 100%;
     width: 100%;
     max-width: 450px;
-    overflow-y: scroll;
+    // overflow-y: scroll;
 
     // top: 50%;
     // left: 50%;
@@ -90,6 +90,9 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
+    }
+    @media screen and (max-width: 1199px) {
+        overflow-y: scroll;
     }
     @media screen and (min-width: 1200px) {
         max-width: 528px;
