@@ -10,15 +10,19 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-     row-gap:15px;
-&__item{margin-right: 8px;}
+    row-gap: 15px;
+    &__item {
+        margin-right: 8px;
+    }
 
-&__item:last-child{margin-right: 0;}
+    &__item:last-child {
+        margin-right: 0;
+    }
 
-  @media screen and (min-width:768px) {
-      justify-content:center ;
- }
-   @media screen and (min-width:1200px) {
-       justify-content: center;
-   }
+    @media screen and (min-width: 768px) {
+        justify-content: center;
+    }
+    @media screen and (min-width: 1200px) {
+        justify-content: center;
+    }
 }

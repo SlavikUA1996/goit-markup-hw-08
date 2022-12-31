@@ -1,71 +1,64 @@
-.header{
-   
+.header {
     @extend %flex-align;
-    
+
     width: 100%;
-    
-        border-bottom: 1px solid #ececec;
+
+    border-bottom: 1px solid #ececec;
     // &__logo {
     //     margin-right: 93px;
     //     }
-          
-        @media screen and (min-width:480px), (max-width:479px){
-       &__nav-header{
-        display: none;
-               }     
-        }
-     
-         @media screen and (min-width:768px),(max-width:767px) {
-             & {
-                 display: inline-flex;
-justify-content: space-between;
-                
-             }}
- @media screen and (min-width:768px) {
-     & {
-         display: inline-flex;
-        
 
-     }
- }
-
-     @media screen and (min-width:768px)
-         {
+    @media screen and (min-width: 480px), (max-width: 479px) {
         &__nav-header {
-         display: inline-flex;
-         justify-content: center;
-         align-items: center;
-                 margin-left: 87px;
-                           }
+            display: none;
         }
-                  @media screen and (min-width:1200px) {
-                      &__nav-header {
-                          display: inline-flex;
-                         
-                      }
-                  }
-}
+    }
 
+    @media screen and (min-width: 768px), (max-width: 767px) {
+        & {
+            display: inline-flex;
+            justify-content: space-between;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        & {
+            display: inline-flex;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        &__nav-header {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 87px;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        &__nav-header {
+            display: inline-flex;
+        }
+    }
+}
 
 .btn-menu-mob {
-            display: inline-flex;
-    
-            padding: 0;
-            margin: 0;
-            border: none;
-            background-color: transparent;
+    display: inline-flex;
 
-    @media screen and (min-width:768px){
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+
+    @media screen and (min-width: 768px) {
         display: none;
-    }        
-        }
-.btn-menu-mob .icon-menu-close{
-  display: none;  
+    }
 }
-.btn-menu-mob.is-open .icon-menu-close{
+.btn-menu-mob .icon-menu-close {
+    display: none;
+}
+.btn-menu-mob.is-open .icon-menu-close {
     display: block;
 }
 .btn-menu-mob.is-open .icon-menu-open {
     display: block;
 }
-

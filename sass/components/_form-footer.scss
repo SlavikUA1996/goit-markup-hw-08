@@ -8,8 +8,8 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: none;
-    
-   & input::placeholder {
+
+    & input::placeholder {
         /* padding-left: 16px;*/
         font-size: 16px;
         line-height: 20px;
@@ -17,15 +17,9 @@
         color: rgba(255, 255, 255, 0.6);
     }
 
+    @media screen and (min-width: 1200px) {
+        width: 358px;
 
-
-
-@media screen and (min-width:1200px) {
-
-    width: 358px;
-   
-    margin-left: 93px;
-   
+        margin-left: 93px;
+    }
 }
-}
-

@@ -1,5 +1,5 @@
 .form-field {
-     position: relative;
+    position: relative;
     /*margin-bottom: 10px;*/
     padding: 0;
 
@@ -20,12 +20,12 @@
         border: 1px solid var(--accent-color);
     }
 
-    &__input-focus:focus+&__icon-person {
+    &__input-focus:focus + &__icon-person {
         fill: var(--accent-color);
     }
 
     &__icon-person {
-         position: absolute;
+        position: absolute;
         margin-top: 11px;
         margin-bottom: 11px;
         margin-left: 12px;
@@ -35,4 +35,4 @@
         fill: var(--primary-text-color);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-   }
+}
